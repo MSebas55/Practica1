@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(view.getContext(), "Adios", Toast.LENGTH_SHORT).show();
     }
 
-    public void changeToInsert(View view) {
-        Intent nIntent = new Intent(MainActivity.this, InsertToDB.class);
+    public void changeToShow(View view) {
+        Intent nIntent = new Intent(MainActivity.this, Show.class);
         startActivity(nIntent);
     }
 }
