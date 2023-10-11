@@ -30,7 +30,7 @@ public class InsertToDB extends AppCompatActivity {
         TextView emailTextView = findViewById(R.id.insertEmail);
 
         String nameString = nameTextView.getText().toString();
-        String emailString = nameTextView.getText().toString();
+        String emailString = emailTextView.getText().toString();
 
         DatabaseAux aux = new DatabaseAux(InsertToDB.this);
         SQLiteDatabase db = aux.getWritableDatabase();
