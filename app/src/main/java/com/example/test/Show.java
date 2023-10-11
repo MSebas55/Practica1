@@ -42,7 +42,7 @@ public class Show extends AppCompatActivity {
                 nameShowView.setText(id + " " + name);
                 emailShowView.setText(email);
             }while(cursor.moveToNext());
-            // scroll view & linear layout
+            // scroll view & linear layout y hacer el delete
         }
 
         db.close();
