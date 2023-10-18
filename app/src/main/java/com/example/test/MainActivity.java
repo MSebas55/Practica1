@@ -39,5 +39,9 @@ public class MainActivity extends AppCompatActivity {
         Intent nIntent = new Intent(MainActivity.this, Delete.class);
         startActivity(nIntent);
     }
+    public void changeToUpdate(View view) {
+        Intent nIntent = new Intent(MainActivity.this, Update.class);
+        startActivity(nIntent);
+    }
 }
 
