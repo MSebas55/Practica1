@@ -26,6 +26,7 @@ public class InsertToDB extends AppCompatActivity {
     }
 
     public void insertValues(View v) {
+        // Pilla el nombre y email
         TextView nameTextView = findViewById(R.id.insertName);
         TextView emailTextView = findViewById(R.id.insertEmail);
 
